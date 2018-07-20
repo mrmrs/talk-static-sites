@@ -1,5 +1,14 @@
 import styled from 'react-emotion'
-import {space, width, maxWidth, fontSize, color} from 'styled-system'
+import {
+  space,
+  width,
+  maxWidth,
+  fontSize,
+  fontWeight,
+  lineHeight,
+  textAlign,
+  color,
+} from 'styled-system'
 
 const P = styled('p')(
   space,

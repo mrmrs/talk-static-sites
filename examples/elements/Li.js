@@ -16,7 +16,7 @@ const Li = styled('li')(
   color,
   borders,
   borderColor,
-  borderwidth,
+  borderWidth,
   {
     boxSizing: 'border-box',
   },
