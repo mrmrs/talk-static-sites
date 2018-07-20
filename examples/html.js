@@ -17,7 +17,7 @@ module.exports = ({
 <title>${title}</title>
 ${meta.map(({ name, content }) => `<meta name='${name}' content='${content}'>`).join('\n')}
 ${links.map(({ rel, href }) => `<link rel='${rel}' href='${href}' />`).join('\n')}
-<style>body { margin :0; }</style>
+<style>body { margin :0 }</style>
 ${css}
 </head>
 <body>

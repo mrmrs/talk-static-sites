@@ -31,7 +31,9 @@ const A = styled('a')(
   borderColor,
   borderWidth,
   borderRadius,
-  {},
+  {
+    textDecoration: 'none'
+  },
 )
 
 A.defaultProps = {
