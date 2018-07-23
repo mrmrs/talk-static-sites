@@ -1,13 +1,20 @@
 import React from 'react'
 
+import {
+  P,
+  H1,
+  Div,
+  Article,
+  Footer
+} from '../elements/'
 
-import { H1, Div } from '../elements/'
+import Skullcat from '../components/Skullcat'
 
 export default class extends React.Component {
-  render () {
+  render() {
     return (
-      <Div bg='red.1' py={5} px={4} fontSize={[1,2,5]}>
-        <H1>Hello</H1>
+      <Div>
+        <Skullcat />
       </Div>
     )
   }

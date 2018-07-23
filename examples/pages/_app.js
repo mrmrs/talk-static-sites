@@ -12,7 +12,7 @@ export default class extends React.Component {
     return (
       <ThemeProvider theme={theme}>
         <div>
-          <nav>
+          <nav style={{display: 'none'}}>
             <A fontWeight={600} href='/'>Home</A>
             <A fontWeight={600} href='/work'>Work</A>
             <A fontWeight={600} href='/writing'>Writing</A>

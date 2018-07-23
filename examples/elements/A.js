@@ -38,6 +38,7 @@ const A = styled('a')(
 
 A.defaultProps = {
   bg: 'transparent',
+  color: 'blue'
 }
 
 export default A
